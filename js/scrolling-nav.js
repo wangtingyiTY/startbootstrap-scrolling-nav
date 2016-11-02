@@ -16,4 +16,7 @@ $(function() {
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
+    $('.to-next').bind('click',function () {
+        $('.collapse li.active').next().find('a').click();
+    })
 });

@@ -58,3 +58,14 @@ of those sections to manage the look and feel of the site. */
     text-align: center;
     background: #eee;
 }
+.to-next{
+    position: fixed;
+    bottom:20%;
+    left:50%;
+    z-index:1020;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
