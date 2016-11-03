@@ -18,5 +18,14 @@ $(function() {
     });
     $('.to-next').bind('click',function () {
         $('.collapse li.active').next().find('a').click();
-    })
+    });
+    (function () {
+        var menu=$("#menu");
+        menu.bind("click",function () {
+            var isSx=$(this).children("li").css("float");
+            if(isSx!="left"){
+                $(this).removeClass("in");
+            }
+        });
+    })();
 });

@@ -69,3 +69,9 @@ of those sections to manage the look and feel of the site. */
     -o-transform: translateX(-50%);
     transform: translateX(-50%);
 }
+#menu{
+    width:100%;
+}
+.navbar-header{
+    width:100%;
+}
